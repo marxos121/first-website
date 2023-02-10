@@ -10,7 +10,34 @@ information header text 36px extra-bold #1f2937
 Quote section bg: #e5e7eb
 Quote text: 36px light italic #1f2937*/
 
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 ul{
-    padding: 0;
     list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.header{
+    display: flex;
+    padding: 10px;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header > h2{
+    font-weight: bolder;
+}
+
+.intro{
 }
