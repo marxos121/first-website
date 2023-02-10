@@ -13,6 +13,7 @@ body{
     margin: 0;
     size: 100vh;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
 }
 
 a{
@@ -117,4 +118,39 @@ Quote text: 36px light italic #1f2937*/
     color: rgb(34, 34, 34);
     font-size: 22px;
     font-style: normal;
+}
+/*
+.register-section{
+    display: flex;
+    justify-content: center;
+}*/
+
+.register-box{
+    display: flex;
+    background-color: #3882f6;
+    width: 700px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.register-left{
+    color:#F9FAF8;
+    margin: 15px;
+    width: 400px;
+    font-size: 24px;
+}
+
+.register-left > h5{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.register-box button{
+    border-style:solid;
+    border-color: white;
+    border-width: 5px;
 }
