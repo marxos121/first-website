@@ -1,0 +1,16 @@
+/* dark bg color hero and footer: #1f2937
+Hero Main text ("this website...") 48px extra-bold #F9FAF8
+Hero Secondar text, Header Link Text 18px #E5E7EB
+Header Logo Text 24px #f9faf8
+
+
+Button color, call to action bg color: #3882f6
+information header text 36px extra-bold #1f2937
+
+Quote section bg: #e5e7eb
+Quote text: 36px light italic #1f2937*/
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
