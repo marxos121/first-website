@@ -21,6 +21,7 @@ a{
     text-decoration: none;
 }
 
+
 ul{
     list-style-type: none;
     display: flex;
@@ -153,4 +154,19 @@ Quote text: 36px light italic #1f2937*/
     border-style:solid;
     border-color: white;
     border-width: 5px;
+}
+
+.footer{
+    background-color: #1f2937;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+}
+
+
+.footer > p{
+    margin: 0;
+    font-weight: bold;
 }
