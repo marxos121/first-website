@@ -11,6 +11,8 @@ Quote section bg: #e5e7eb
 Quote text: 36px light italic #1f2937*/
 
 body{
+    margin: 0;
+    size: 100vh;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -27,17 +29,43 @@ ul{
 
 .header{
     display: flex;
-    padding: 10px;
+    margin: 0;
     background-color: #1f2937;
     justify-content: space-around;
     align-items: center;
-    font-size: 24px;
+    font-size: 18px;
     color: #f9faf8;
 }
 
 .header > h2{
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
 }
 
 .intro{
+    display: flex;
+    background-color: #1f2937;
+    padding: 100px 0 100px 0;
+    justify-content: center;
+}
+
+.intro-left{
+    width: 400px;
+    font-size: 18px;
+    color:#F9FAF8
+}
+
+.intro-left > h4{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+button{
+    color:#F9FAF8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 40px;
 }
