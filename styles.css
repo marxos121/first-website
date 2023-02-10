@@ -69,3 +69,24 @@ button{
     border-radius: 12px;
     padding: 15px 40px;
 }
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    font-size: 22px;
+    width: 200px;
+    margin: 15px 30px;
+    color: #223958;
+    font-weight: 600;
+    text-align: center;
+}
+
+#info-header{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #1f2937;
+}
